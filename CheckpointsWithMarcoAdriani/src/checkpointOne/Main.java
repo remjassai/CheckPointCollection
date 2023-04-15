@@ -1,4 +1,4 @@
-package CheckPointCollection/checkpointOne;
+package checkpointOne;
 
 import java.util.ArrayList;
 import java.util.HashSet;
