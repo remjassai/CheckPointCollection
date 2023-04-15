@@ -1,4 +1,4 @@
-package CheckpointTwo.txt;
+package CheckpointTwo/txt;
 
 import java.io.*;
 import java.util.ArrayList;
