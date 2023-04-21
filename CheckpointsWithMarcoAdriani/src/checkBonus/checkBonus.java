@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class checkBonus {
     public static void main(String[] args) throws IOException {
-        List<String> poesia = processFile("CheckpointsWithMarcoAdriani/src/checkBonus/FaFreddoDiGianniRodari.txt");
+        List<String> poesia = processFile("CheckpointsWithMarcoAdriani/src/resources/FaFreddoDiGianniRodari.txt");
         HashMap<String,Integer> nOfVowelsInWord = processLines(poesia);
         System.out.println(nOfVowelsInWord);
         writeResult("CheckpointsWithMarcoAdriani/src/checkBonus/outputBonus.txt",nOfVowelsInWord);
